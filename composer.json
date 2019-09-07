@@ -1,0 +1,29 @@
+{
+    "name": "openemr/oe-fax",
+    "description": "OpenEMR Fax module",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jerry Padgett",
+            "email": "sjpadgett@gmail.com"
+        },
+        {
+            "name": "Stephen Nielson",
+            "email": "stephen@nielson.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    	"ext-curl": "*",
+    	"ext-json": "*",
+    	"php": "^7.2",
+        "ringcentral/ringcentral-php": "^2.2",
+        "twilio/sdk": "^5.35"
+    },
+    "config": {
+        "replace": {
+            "pubnub/pubnub": "*"
+        }
+   }
+}
