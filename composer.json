@@ -1,5 +1,5 @@
 {
-    "name": "openemr/oe-fax",
+    "name": "openemr/oefax",
     "description": "OpenEMR Fax module",
     "type": "openemr-module",
     "license": "GPL-3.0",
