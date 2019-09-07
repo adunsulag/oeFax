@@ -1,7 +1,7 @@
 {
     "name": "openemr/oe-fax",
     "description": "OpenEMR Fax module",
-    "type": "library",
+    "type": "openemr-module",
     "license": "GPL-3.0",
     "authors": [
         {
@@ -15,6 +15,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "adunsulag/openemr-module-installer-plugin": "*",
     	"ext-curl": "*",
     	"ext-json": "*",
     	"php": "^7.2",
@@ -25,5 +26,11 @@
         "replace": {
             "pubnub/pubnub": "*"
         }
-   }
+   },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/adunsulag/openemr-module-installer-plugin"
+        }
+    ]
 }
