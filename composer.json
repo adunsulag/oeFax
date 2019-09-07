@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "adunsulag/openemr-module-installer-plugin": "*",
+        "adunsulag/openemr-module-installer-plugin": "^0.1.0",
     	"ext-curl": "*",
     	"ext-json": "*",
     	"php": "^7.2",
